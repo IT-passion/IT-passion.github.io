@@ -1,0 +1,1997 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)http://slimhamdi.net/istanbul/demos/index-left-image-dark.html -->
+<html lang="en" style="" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Istanbul - Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Template Google Fonts -->
+    <link href="./Istanbul - Personal Portfolio_files/css" rel="stylesheet">
+    <link href="./Istanbul - Personal Portfolio_files/css(1)" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link type="text/css" media="all" href="./Istanbul - Personal Portfolio_files/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" media="all" href="./Istanbul - Personal Portfolio_files/jquery.animatedheadline.css" rel="stylesheet">
+    <link type="text/css" media="all" href="./Istanbul - Personal Portfolio_files/font-awesome.min.css" rel="stylesheet">
+    <link type="text/css" media="all" href="./Istanbul - Personal Portfolio_files/style.css" rel="stylesheet">
+    <link type="text/css" media="all" href="./Istanbul - Personal Portfolio_files/blue.css" rel="stylesheet">
+
+    <!-- Template JS Files -->
+    <script src="./Istanbul - Personal Portfolio_files/modernizr.js.download"></script>
+
+    <!-- Live Style Switcher - demo only -->
+	<link rel="alternate stylesheet" type="text/css" title="blue" href="./Istanbul - Personal Portfolio_files/blue.css" disabled="">
+    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="./Istanbul - Personal Portfolio_files/goldrenrod.css" disabled="">
+    <link rel="alternate stylesheet" type="text/css" title="green" href="./Istanbul - Personal Portfolio_files/green.css" disabled="">
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="./Istanbul - Personal Portfolio_files/magenta.css" disabled="">
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="./Istanbul - Personal Portfolio_files/orange.css" disabled="">
+    <link rel="alternate stylesheet" type="text/css" title="red" href="./Istanbul - Personal Portfolio_files/red.css" disabled="">
+    <link rel="alternate stylesheet" type="text/css" title="yellow" href="./Istanbul - Personal Portfolio_files/yellow.css" disabled="">
+    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="./Istanbul - Personal Portfolio_files/yellowgreen.css" disabled="">
+    <link rel="stylesheet" type="text/css" href="./Istanbul - Personal Portfolio_files/styleswitcher.css">
+    <link rel="stylesheet" href="./Istanbul - Personal Portfolio_files/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Istanbul - Personal Portfolio_files/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf">
+    <link rel="stylesheet" href="./Istanbul - Personal Portfolio_files/font-awesome-4.7.0/fonts/fontawesome-webfont.woff">
+
+<style type="text/css">.TnITTtw-fp-collapsed-button {
+    display: none;
+    position: fixed !important;
+    top: 16px !important;
+    right: 16px !important;
+}
+
+.TnITTtw-fp-collapsed-button:hover {
+    opacity: 1.0 !important;
+}
+
+.TnITTtw-mate-fp-bar {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+    color: #000;
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 999;
+    background: rgb(255 255 255 / 0.95);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 16px;
+    border-radius: 11px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
+    width: 320px;
+    line-height: initial;
+}
+
+@-moz-document url-prefix() {
+    .TnITTtw-mate-fp-bar {
+        background: rgb(255 255 255 / 1.0);
+    }
+}
+
+.TnITTtw-mate-fp-bar.TnITTtw-dark-mode {
+    background: rgb(44, 44, 43);
+}
+
+.TnITTtw-hide-fp-bar {
+    width: 12px;
+    height: 12px;
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-close-tt.png) !important;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.TnITTtw-hide-fp-bar:hover {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-close-tt.png) !important;
+}
+
+.TnITTtw-current-page-lang {
+    color: #6d6d72;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.TnITTtw-dark-mode .TnITTtw-current-page-lang {
+    color: #98989D;
+}
+
+.TnITTtw-fp-translate {
+    width: calc(100% - 73px) !important;
+    font-size: 14px !important;
+    text-transform: none !important;
+}
+
+.TnITTtw-fp-translate.TnITTtw-in-progress {
+    animation-name: funky-bg;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+}
+
+.TnITTtw-fp-translate.TnITTtw-show-original {
+    width: calc(100% - 20px) !important;
+}
+
+@keyframes funky-bg {
+    from {
+        background-image: linear-gradient(145deg, #01EF92, #00D8FB),
+        linear-gradient(35deg, rgba(1, 239, 146, 0.25), rgba(0, 216, 251, 0.25)) !important;
+    }
+
+    to {
+        background-image: linear-gradient(90deg, #01EF92, #00D8FB),
+        linear-gradient(35deg, rgba(1, 239, 146, 0.25), rgba(0, 216, 251, 0.25)) !important;
+    }
+}
+
+.TnITTtw-change-language, .TnITTtw-stop-fp {
+    width: 38px;
+    height: 38px;
+    background-color: #EFEFF4;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px 16px;
+    border-radius: 11px;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.TnITTtw-change-language {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/globe-earth.png) !important;
+}
+
+.TnITTtw-dark-mode .TnITTtw-change-language {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/globe-earth-dark.png) !important;
+}
+
+.TnITTtw-stop-fp {
+    display: none;
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-stt-stop.png) !important;
+    background-size: 12px 12px;
+}
+
+.TnITTtw-dark-mode .TnITTtw-change-language, .TnITTtw-dark-mode .TnITTtw-stop-fp {
+    background-color: #525251 !important;
+}
+
+.TnITTtw-change-language:hover, .TnITTtw-stop-fp:hover {
+    background-color: #F6F6F6;
+}
+
+.TnITTtw-change-language:active, .TnITTtw-stop-fp:active {
+    background-color: #E9E9E9;
+}
+
+.TnITTtw-dark-mode .TnITTtw-change-language:hover,
+.TnITTtw-dark-mode .TnITTtw-stop-fp:hover,
+.TnITTtw-dark-mode .TnITTtw-change-language:active,
+.TnITTtw-dark-mode .TnITTtw-stop-fp:active {
+    background-color: #767675;
+}
+
+#TnITTtw-always-translate {
+}
+
+.TnITTtw-fp-options input {
+    padding: initial;
+    width: auto;
+    border: initial;
+    box-shadow: initial;
+    line-height: initial;
+    height: auto;
+    display: initial;
+    position: initial;
+    appearance: auto;
+    top: initial;
+    cursor: pointer;
+    margin: 0;
+}
+
+.TnITTtw-fp-options input[readonly="readonly"] {
+    opacity: 0.5;
+}
+
+#TnITTtw-always-translate + label,
+#TnITTtw-never-translate-lang + label,
+#TnITTtw-never-translate-site + label {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 4px;
+    color: #000;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 296px;
+    vertical-align: top;
+    line-height: initial;
+    letter-spacing: initial;
+    text-transform: initial;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#TnITTtw-always-translate + label::before,
+#TnITTtw-never-translate-lang + label::before,
+#TnITTtw-never-translate-site + label::before,
+#TnITTtw-always-translate + label::after,
+#TnITTtw-never-translate-lang + label::after,
+#TnITTtw-never-translate-site + label::after  {
+    content: initial;
+} 
+
+.TnITTtw-always-translate-inner-label {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 252px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.TnITTtw-dark-mode #TnITTtw-always-translate + label,
+.TnITTtw-dark-mode #TnITTtw-never-translate-lang + label,
+.TnITTtw-dark-mode #TnITTtw-never-translate-site + label {
+    color: #FFF;
+}
+
+#TnITTtw-always-translate + label.TnITTtw-not-pro {
+    opacity: 0.5;
+}
+
+#TnITTtw-always-translate + label .TnITTtw-pro-label {
+    position: relative;
+    background: #000;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFF;
+    padding: 2px 5px;
+    border-radius: 4px;
+    margin-left: 10px;
+    top: -1px;
+    user-select: none;
+    -webkit-user-select: none;
+    display: inline;
+    font-weight: 500;
+}
+
+.TnITTtw-dark-mode #TnITTtw-always-translate + label .TnITTtw-pro-label {
+    background: #FFF;
+    color: #000;
+}
+
+.TnITTtw-inline-original-tooltip {
+    display: none;
+    position: absolute;
+    margin: 0px;
+    border: none;
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255 255 255 / 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 11px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.TnITTtw-dark-mode.TnITTtw-inline-original-tooltip {
+    background-color: rgb(0 0 0 / 0.915);
+    color: #FFF;
+}
+
+.TnITTtw-inline-original-tooltip .TnITTtw-close-original-tooltip {
+    width: 12px;
+    height: 12px;
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-close-tt.png) !important;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.TnITTtw-inline-original-tooltip .TnITTtw-close-original-tooltip:hover {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-close-tt.png) !important;
+}
+
+.TnITTtw-inline-original-tooltip .TnITTtw-original-label {
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #6d6d72;
+    margin-bottom: 10px;
+}
+
+.TnITTtw-inline-original-tooltip.TnITTtw-dark-mode .TnITTtw-original-label {
+    color: #98989D;
+}
+
+.TnITTtw-inline-original-tooltip .TnITTtw-text-layout {
+    display: inline-block;
+    margin: 0;
+    font-size: 16px;
+    color: #000;
+}
+
+.TnITTtw-inline-original-tooltip.TnITTtw-dark-mode .TnITTtw-text-layout {
+    color: #FFF;
+}
+
+.TnITTtw-highlighted-for-original {
+    color: #0F0F5F;
+    background-color: #F0F0A0;
+}
+
+/* Dropdown scrollbars */
+
+#selVisibleScroll-1, #selVisibleScroll-2, #selVisibleScroll-3 {
+    overflow: hidden;
+    height: 259px;
+    width: 100%;
+    position: relative;
+}
+
+#sel-scrollbar-1, #sel-scrollbar-2, #sel-scrollbar-3 {
+    position: absolute;
+    width: 4px;
+    height: 259px;
+    left: 225px;
+}
+
+#sel-track-1, #sel-track-2, #sel-track-3 {
+    position: absolute;
+    top: 1px;
+    width: 4px;
+    height: calc(100% - 6px);
+}
+
+#sel-dragBar-1, #sel-dragBar-2, #sel-dragBar-3 {
+    position: absolute;
+    top: 1px;
+    width: 4px;
+    background: rgba(43, 43, 43, 0.5);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dark-mode #sel-dragBar-1, .dark-mode #sel-dragBar-2, .dark-mode #sel-dragBar-3 {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#sel-dragBar-1:hover, #sel-dragBar-2:hover, #sel-dragBar-3:hover, 
+#sel-dragBar-1:active, #sel-dragBar-2:active, #sel-dragBar-3:active {
+    background: rgba(43, 43, 43, 0.675);
+}
+
+.dark-mode #sel-dragBar-1:hover,
+.dark-mode #sel-dragBar-2:hover,
+.dark-mode #sel-dragBar-3:hover,
+.dark-mode #sel-dragBar-1:active,
+.dark-mode #sel-dragBar-2:active,
+.dark-mode #sel-dragBar-3:active {
+    background: rgba(255, 255, 255, 0.675);
+}
+
+#sel-scrollbar-1, #sel-track-1, #sel-dragBar-1, 
+#sel-scrollbar-2, #sel-track-2, #sel-dragBar-2,
+#sel-scrollbar-3, #sel-track-3, #sel-dragBar-3 {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Spinner for when it's translating a page */
+
+.TnITTtw-cta-button-layout {
+    position: relative;
+    display: inline;
+}
+
+.TnITTtw-spinner {
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+}
+  
+  @media screen and (max-width: 800px) {
+    .TnITTtw-spinner {
+      top: 28px;
+    }
+  }
+
+  .TnITTtw-spinner.in-text {
+    display: block;
+    background: transparent;
+    position: initial;
+  }
+
+  .TnITTtw-spinner.left {
+    text-align: left;
+  }
+  
+  .TnITTtw-spinner > div {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(0, 71, 46);
+  
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  }
+
+  .TnITTtw-spinner.in-text > div {
+    background-color: #000;
+  }
+  
+  .TnITTtw-spinner .TnITTtw-bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+  }
+  
+  .TnITTtw-spinner .TnITTtw-bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+  }
+  
+  @-webkit-keyframes sk-bouncedelay {
+    0%, 80%, 100% { -webkit-transform: scale(0) }
+    40% { -webkit-transform: scale(1.0) }
+  }
+  
+  @keyframes sk-bouncedelay {
+    0%, 80%, 100% { 
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    } 40% { 
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+    }
+  }</style><style type="text/css">/*
+ * contextMenu.js v 1.4.0
+ * Author: Sudhanshu Yadav
+ * s-yadav.github.com
+ * Copyright (c) 2013 Sudhanshu Yadav.
+ * Dual licensed under the MIT and GPL licenses
+**/
+
+.iw-contextMenu {
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.10) !important;
+    border: 1px solid #c8c7cc !important;
+    border-radius: 11px !important;
+    display: none;
+    z-index: 1000000132;
+    max-width: 300px !important;
+    width: auto !important;
+}
+
+.dark-mode .iw-contextMenu,
+.TnITTtw-dark-mode.iw-contextMenu,
+.TnITTtw-dark-mode .iw-contextMenu {
+    border-color: #747473 !important;
+}
+
+.iw-cm-menu {
+    background: #fff !important;
+    color: #000 !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow: visible !important;
+}
+
+.dark-mode .iw-cm-menu,
+.TnITTtw-dark-mode.iw-cm-menu,
+.TnITTtw-dark-mode .iw-cm-menu {
+    background: #525251 !important;
+    color: #FFF !important;
+}
+
+.iw-curMenu {
+}
+
+.iw-cm-menu li {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+    list-style: none !important;
+    padding: 10px !important;
+    padding-right: 20px !important;
+    border-bottom: 1px solid #c8c7cc !important;
+    font-weight: 400 !important;
+    cursor: pointer !important;
+    position: relative !important;
+    font-size: 14px !important;
+    margin: 0 !important;
+    line-height: inherit !important;
+    border-radius: 0 !important;
+    display: block !important;
+}
+
+.dark-mode .iw-cm-menu li, .TnITTtw-dark-mode .iw-cm-menu li {
+    border-bottom-color: #747473 !important;
+}
+
+.iw-cm-menu li:first-child {
+    border-top-left-radius: 11px !important;
+    border-top-right-radius: 11px !important;
+}
+
+.iw-cm-menu li:last-child {
+    border-bottom-left-radius: 11px !important;
+    border-bottom-right-radius: 11px !important;
+    border-bottom: none !important;
+}
+
+.iw-mOverlay {
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0px !important;
+    left: 0px !important;
+    background: #FFF !important;
+    opacity: .5 !important;
+}
+
+.iw-contextMenu li.iw-mDisable {
+    opacity: 0.3 !important;
+    cursor: default !important;
+}
+
+.iw-mSelected {
+    background-color: #F6F6F6 !important;
+}
+
+.dark-mode .iw-mSelected, .TnITTtw-dark-mode .iw-mSelected {
+    background-color: #676766 !important;
+}
+
+.iw-cm-arrow-right {
+    width: 0 !important;
+    height: 0 !important;
+    border-top: 5px solid transparent !important;
+    border-bottom: 5px solid transparent !important;
+    border-left: 5px solid #000 !important;
+    position: absolute !important;
+    right: 5px !important;
+    top: 50% !important;
+    margin-top: -5px !important;
+}
+
+.dark-mode .iw-cm-arrow-right, .TnITTtw-dark-mode .iw-cm-arrow-right {
+    border-left-color: #FFF !important;
+}
+
+.iw-mSelected > .iw-cm-arrow-right {
+}
+
+/*context menu css end */</style><style type="text/css">.ui_selector, .TnITTtw-ui_selector {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+    display: inline-block;
+}
+
+.ui_selector .select, .TnITTtw-ui_selector .TnITTtw-select {
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid rgba(200, 199, 204, 0.5);
+    padding: 10px 15px;
+    width: 201px;
+    -webkit-user-select: none;
+    cursor: pointer;
+    border-radius: 11px;
+    display: inline-block;
+    background-image: -webkit-linear-gradient(top, #FAFAFA, #F6F6F6);
+    background-image: -moz-linear-gradient(top, #FAFAFA, #F6F6F6);
+    background-size: auto 48px;
+    background-position: 0px -11px;
+    box-shadow: 0 0.5px 1px rgba(0, 0, 0, 0.10);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dark-mode .ui_selector .select, 
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-select {
+    background-image: -webkit-linear-gradient(top, #4A4A49, #40403F);
+    background-image: -moz-linear-gradient(top, #4A4A49, #40403F);
+    color: #FFF;
+    border-color: #747473;
+}
+
+.ui_selector .select:hover,
+.TnITTtw-ui_selector .TnITTtw-select:hover {
+    color: #424242;
+    background-image: -webkit-linear-gradient(top, #FAFAFA, #FAFAFA);
+    background-image: -moz-linear-gradient(top, #FAFAFA, #FAFAFA);
+}
+
+.ui_selector .select:active,
+.TnITTtw-ui_selector .TnITTtw-select:active {
+    color: #6d6d72;
+    background-image: -webkit-linear-gradient(top, #F6F6F6, #F6F6F6);
+    background-image: -moz-linear-gradient(top, #F6F6F6, #F6F6F6);
+}
+
+.dark-mode .ui_selector .select:hover,
+.dark-mode .ui_selector .select:active,
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-select:hover,
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-select:active {
+    background-image: -webkit-linear-gradient(top, #4A4A49, #4A4A49);
+    background-image: -moz-linear-gradient(top, #4A4A49, #4A4A49);
+    color: #FFF;
+    border-color: #747473;
+}
+
+.ui_selector .select .detected-ico,
+.TnITTtw-ui_selector .TnITTtw-select .TnITTtw-detected-ico {
+    display: inline-block;
+}
+
+.ui_selector .active, .ui_selector .active:hover, .ui_selector .active:active,
+.TnITTtw-ui_selector .TnITTtw-active, .TnITTtw-ui_selector .TnITTtw-active:hover, .TnITTtw-ui_selector .TnITTtw-active:active {
+    box-shadow: 0 -1px 15px -10px rgba(0, 0, 0, 0.85) !important;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background: #F3F3F3;
+}
+
+.sliding-text,
+.TnITTtw-sliding-text {
+    position: relative;
+}
+
+.ui_selector .options,
+.TnITTtw-ui_selector .TnITTtw-options {
+    margin-left: 0px;
+    margin-top: -4px;
+    background: #fff;
+    border: 1px solid rgba(200, 199, 204, 0.5);
+    width: 231px;
+    overflow: hidden;
+    max-height: 313px;
+    position: absolute;
+    font-size: 12px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: none;
+}
+
+.ui_selector .options.standalone,
+.TnITTtw-ui_selector .TnITTtw-options.TnITTtw-standalone {
+    border-radius: 11px;
+    margin-top: 16px;
+}
+
+/* for now, it can only be on the top */
+.ui_selector .options-arrow,
+.TnITTtw-ui_selector .TnITTtw-options-arrow {
+    display: none;
+    position: absolute;
+    width: 32px !important;
+    height: 18px !important;
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/tt-dropdown-arrow.png);
+    background-size: 32px 18px;
+    transform: rotate(180deg);
+    margin-top: -1px;
+}
+
+.dark-mode .ui_selector .options-arrow,
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options-arrow {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/tt-dropdown-arrow-dark.png);
+}
+
+.dark-mode .ui_selector .options,
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options {
+    background: #525251;
+}
+
+.ui_selector .options ul,
+.TnITTtw-ui_selector .TnITTtw-options ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 232px;
+}
+
+.ui_selector .options ul li,
+.TnITTtw-ui_selector .TnITTtw-options ul li {
+    padding: 10px 0px;
+    -webkit-user-select: none;
+    text-align: center;
+    font-size: 17px;
+    -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+    margin: 0 10px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.dark-mode .options ul li,
+.TnITTtw-dark-mode .TnITTtw-options ul li {
+    color: #fff;
+}
+
+.ui_selector .options ul li:last-child,
+.TnITTtw-ui_selector .TnITTtw-options ul li:last-child {
+    margin-bottom: 16px;
+}
+
+.ui_selector .options ul li.option:first-child,
+.ui_selector .options ul li.option_selected:first-child,
+.TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-option:first-child,
+.TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-option_selected:first-child {
+    margin-top: 16px;
+}
+
+.ui_selector .options ul li.whenHover,
+.TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-whenHover {
+    cursor: pointer;
+    background: #f3f3f3;
+    text-align: center;
+}
+
+.dark-mode .ui_selector .options ul li.whenHover,
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-whenHover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.ui_selector .options ul li.option_selected,
+.TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-option_selected {
+    cursor: pointer;
+    background-image: linear-gradient(145deg, #01EF92, #00D8FB),
+    linear-gradient(35deg, rgba(1, 239, 146, 0.25), rgba(0, 216, 251, 0.25)) !important;
+    color: #fff;
+    font-weight: 600;
+}
+
+.ui_selector .options ul .group,
+.ui_selector .options ul .group:hover,
+.ui_selector .options ul .group.whenHover,
+.TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group,
+.TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group:hover,
+.TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group.whenHover {
+    padding: 16px 10px;
+    color: #8e8e93;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    cursor: default;
+    background: #FFF;
+}
+
+.dark-mode .ui_selector .options ul .group,
+.dark-mode .ui_selector .options ul .group:hover,
+.dark-mode .ui_selector .options ul .group.whenHover,
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group,
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group:hover,
+.TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group.TnITTtw-whenHover {
+    color: #98989D;
+    background: #525251;
+}
+
+.group-element,
+.TnITTtw-group-element {
+    width: 153px;
+}
+
+.options .dd-search,
+.TnITTtw-options .TnITTtw-dd-search {
+    border-bottom: 1px solid rgba(200, 199, 204, 0.5);
+}
+
+.dark-mode .options .dd-search,
+.TnITTtw-dark-mode .TnITTtw-options .TnITTtw-dd-search {
+    border-bottom-color: #747473;
+}
+
+.dd-search .dd-input,
+.TnITTtw-dd-search .TnITTtw-dd-input {
+    padding: 16px;
+    padding-left: calc(16px * 3);
+    width: 168px;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+    text-align: left;
+    color: #000;
+    font-size: 17px;
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/searchfield-icon.png);
+    background-position: 16px;
+    background-size: 16px;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: auto;
+}
+
+.dark-mode .dd-search .dd-input,
+.TnITTtw-dark-mode .TnITTtw-dd-search .TnITTtw-dd-input {
+    color: #FFF;
+    background-color: #525251;
+}
+
+.dd-search .dd-input:focus,
+.TnITTtw-dd-search .TnITTtw-dd-input:focus {
+    -webkit-transition: all 275ms cubic-bezier(0.23, 1, 0.32, 1);
+    outline: none;
+    text-align: left;
+}
+
+.dd-input::-webkit-input-placeholder,
+.TnITTtw-dd-input::-webkit-input-placeholder {
+    color: #8e8e93;
+}
+
+.search-failed-plaque,
+.TnITTtw-search-failed-plaque {
+    text-align: center;
+    padding: 20px;
+    color: #8e8e93;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.dark-mode .search-failed-plaque,
+.TnITTtw-dark-mode .TnITTtw-search-failed-plaque {
+    color: #98989D;
+}
+
+.rm-recent,
+.TnITTtw-rm-recent {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-lang-remove.png);
+    background-size: 10px 10px;
+    top: 15px;
+    right: 10px;
+}
+
+.rm-recent:hover,
+.TnITTtw-rm-recent:hover {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-lang-remove.png);
+}
+
+.rm-recent:active,
+.TnITTtw-rm-recent:active {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/down-lang-remove.png);
+}
+
+.option_selected .rm-recent,
+.TnITTtw-option_selected .TnITTtw-rm-recent {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/down-active-lang-remove.png);
+}
+
+.option_selected .rm-recent:hover,
+.TnITTtw-option_selected .TnITTtw-rm-recent:hover {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-active-lang-remove.png);
+}
+
+.option_selected .rm-recent:active,
+.TnITTtw-option_selected .TnITTtw-rm-recent:active {
+    background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/down-active-lang-remove.png);
+}
+
+.TnITTtw-hidden {
+    display: none;
+}</style><style type="text/css">@-webkit-keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}
+
+@keyframes load4 {
+    0%,
+    100% {
+        box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+    }
+    12.5% {
+        box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    25% {
+        box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+    }
+    37.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    50% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+    }
+    62.5% {
+        box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+    }
+    75% {
+        box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+    }
+    87.5% {
+        box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+    }
+}</style><style type="text/css">/* This is not a zero-length file! */</style></head>
+
+<body class="dark bgimage" data-new-gr-c-s-check-loaded="14.1043.0" data-gr-ext-installed="">
+    <div class="page animated" style="animation-duration: 500ms;">
+        <!-- Header Starts -->
+    <header id="header">
+		<div class="nav-container">
+			<div>
+				<!-- Mobile Navigation Starts -->
+				<ul id="nav" class="navigation">
+					<li class="active">
+						<div>
+							<a id="link-home" href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#home" class="active">
+								<i class="fa fa-home"></i><span>Home</span>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<a id="link-about" href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#about">
+								<i class="fa fa-user"></i><span>About me</span>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<a id="link-work" href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#work">
+								<i class="fa fa-briefcase"></i><span>my Portfolio</span>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div>
+							<a id="link-contact" href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#contact">
+								<i class="fa fa-envelope-open"></i><span>get in touch</span>
+							</a>
+						</div>
+					</li>
+				</ul>
+				<!-- Mobile Navigation Ends -->
+			</div>
+		</div>
+		<!-- Stretchy Navigation Starts -->
+		<div class="cd-stretchy-nav">
+			<a class="cd-nav-trigger" href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#0">
+				<span aria-hidden="true"></span>
+			</a>
+			<ul class="stretchy-nav">
+				<li class="active"><a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#home"><span>Home</span></a></li>
+				<li><a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#about"><span>About</span></a></li>
+				<li><a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#works"><span>Portfolio</span></a></li>
+				<li><a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#contact"><span>Contact</span></a></li>
+			</ul>
+			<span aria-hidden="true" class="stretchy-nav-bg"></span>
+		</div>
+		<!-- Stretchy Navigation Ends -->
+    </header>
+    <!-- Header Ends -->
+        <!-- Main Content Starts -->
+        <main id="main">
+            <!-- Back To Home Starts [ONLY MOBILE] -->
+            <span class="back-mobile" id="back-mobile"><i class="fa fa-arrow-left"></i></span>
+            <!-- Back To Home Ends [ONLY MOBILE] -->
+            <!-- Home Section Starts -->
+            <section id="home" class="active">
+                <!-- Text Rotator Starts -->
+                <div class="main-text-container">
+					<img class="leftimagepicture" src="./Istanbul - Personal Portfolio_files/my photo.jpg" alt="">
+                    <div class="main-text" id="selector">
+                        <h3>Hi there !</h3>
+                        <h1 class="ah-headline clip is-full-width">
+					I'm
+						<span class="ah-words-wrapper" style="width: 315.516px; overflow: hidden;">
+							<b class="is-hidden">Adrian Lee</b>
+							<b class="is-visible">a web designer</b>
+							<b class="is-hidden">a web developer</b>
+							<b class="is-hidden">a full-stack developer</b>
+                            <b class="is-hidden">a blockchain developer</b>
+						</span>
+					</h1>
+                    <p style="width: 605px;">
+                        I'm a Senior Full Stack & Blockchain Developer with 5+ years of well-rounded experience in web & mobile app development, object-oriented and user-centered design, and also blockchain/cryptocurrency. 
+                    </p>                        
+                    <div class="call-to-actions-home">
+                            <div class="text-left">
+                                <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#about" class="btn link-portfolio-one"><span><i class="fa fa-user"></i>more about me</span></a>
+                                <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#work" class="btn btn-secondary link-portfolio-two"><span><i class="fa fa-suitcase"></i>portfolio</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Text Rotator Ends -->
+            </section>
+            <!-- Home Section Ends -->
+            <!-- About Section Starts -->
+            <section id="about">
+                <!-- Main Heading Starts -->
+                <div class="container page-title text-center">
+                    <h2 class="text-center">about <span>me</span></h2>
+                    <span class="title-head-subtitle">I am never afraid to do whatever I need to do to achieve my goals. I will do my best for it.</span>
+                    <span class="title-head-subtitle">No matter the adversity, I always run towards my goal with all my might. Without fear…</span>
+                    <span class="title-head-subtitle">I always allow only the first. There can never be a second or a third for me.</span>
+                    <span class="title-head-subtitle">I always like to have good relationships in business and in life.</span>
+                </div>
+                <!-- Main Heading Ends -->
+                <div class="container infos">
+                    <div class="row personal-info">
+                        <!-- Personal Infos Starts -->
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+							<div class="image-container">
+								<img style="width: 100%;" class="img-fluid d-block" src="./Istanbul - Personal Portfolio_files/Coder boy.png" alt="">
+							</div>
+							<p class="d-block d-md-none">I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design.</p>
+						</div>
+						<div class="row col-xl-6 col-lg-6 col-md-12">
+							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+								<ul class="list-1">
+									<li>
+										<h6><span class="font-weight-600">Full Name</span>Adrian Lee</h6>
+									</li>
+									<li>
+										<h6><span class="font-weight-600">Birthdate</span>22 May 1992</h6>
+									</li>
+									<li>
+										<h6><span class="font-weight-600">Nationality</span>Singapore</h6>
+									</li>
+									<li>
+										<h6><span class="font-weight-600">Experience</span>5 years</h6>
+									</li>
+									<li>
+										<h6><span class="font-weight-600">Address</span>Singapore</h6>
+									</li>
+								</ul>
+							</div>
+							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+								<ul class="list-2">
+									<li>
+										<h6><span class="font-weight-600">Freelance</span>Available</h6>
+									</li>
+									<li>
+										<h6><span class="font-weight-600">Langages</span>English</h6>
+									</li>
+									<li>
+										<h6><span class="font-weight-600">Phone</span>+1 701 347 1796</h6>
+									</li>
+									<li>
+										<h6><span class="font-weight-600">Email</span>adrian.dev312@gmail.com</h6>
+									</li>
+									<li>
+										<h6><span class="font-weight-600">Skype</span>Dev(A.L)</h6>
+									</li>
+								</ul>
+							</div>
+							<div class="col-12 resume-btn-container">
+								<a href="./Istanbul - Personal Portfolio_files/My Resume.pdf" download="expenses.pdf" class="btn btn-resume"><span><i class="fa fa-download"></i>download my cv</span></a>
+							</div>
+						</div>
+                        <!-- Personal Infos Ends -->
+                    </div>
+                </div>
+                <!-- Download CV Starts -->
+                <div class="container col-12 mx-auto text-center">
+                    <hr class="about-section">
+                </div>
+                <!-- Download CV Ends -->
+                <!-- Resume Starts -->
+                <div class="resume-container">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Experience Starts -->
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <h2 class="font-weight-600 uppercase title-section">experience</h2>
+                                <div class="resume-items">
+                                    <!-- Item Starts -->
+                                    <div class="item">
+                                        <span class="bullet"></span>
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <span class="year"><i class="fa fa-calendar"></i><i class="fa fa-caret-right"></i>2020 - 2021</span>
+                                                <span class="d-block font-weight-400 uppercase">
+												blockchain developer
+												<span class="separator"></span>
+                                                <span class="font-weight-700">theta one</span>
+                                                </span>
+                                            </div>
+                                            <div class="card-body">
+                                                <p>- Create a blockchain-based Saas platform for securely sharing, verifying, and attesting information about financial transactions using advanced encryption.</p>
+                                                <p>- Design and Implement payment systems that send weekly cryptocurrency rewards to thousands of active users via 5 blockchains including Binance Smart Chain, Ethereum, Solana, etc.</p>
+                                                <p>- Create Trading Bot based on Humming Bot(using Moralis)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Item Ends -->
+                                    <!-- Item Starts -->
+                                    <div class="item">
+                                        <span class="bullet"></span>
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <span class="year"><i class="fa fa-calendar"></i><i class="fa fa-caret-right"></i>2018 - 2019</span>
+                                                <span class="d-block font-weight-400 uppercase">
+												software engineer 
+												<span class="separator"></span>
+                                                <span class="font-weight-700">bthrust</span>
+                                                </span>
+                                            </div>
+                                            <div class="card-body">
+                                                <p>- Give support to the client's multi-cultural team, providing feedback, clarifyingrequirements, and helping with technical questions</p>
+                                                <p>- Setup and manage API server, monitoring server, and load balances</p>
+                                                <p>-Installed Bitrise CI/CD framework for Ionic v4.0 project</p>
+                                                <p>- Built stable and maintainable codebase</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Item Ends -->
+                                    <!-- Item Starts -->
+                                    <div class="item">
+                                        <span class="bullet"></span>
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <span class="year"><i class="fa fa-calendar"></i><i class="fa fa-caret-right"></i>2015 - 2017</span>
+                                                <span class="d-block font-weight-400 uppercase">
+												front-end developer
+												<span class="separator"></span>
+                                                <span class="font-weight-700">MXGSOFT PTE Ltd</span>
+                                                </span>
+                                            </div>
+                                            <div class="card-body">
+                                                <p>- Improved operational efficiency by revamping the company’s admin dashboard.</p>
+                                                <p>- Created a document viewer application with built-in image manipulation and text extraction using React based on Typescript.</p>
+                                                <p>- Developed a custom UI component to visualize active project on the map.</p>
+                                                <p>- Developed a interactive data-visualization UI components.</p>
+                                                <p>- Translated business needs into pixel-perfect landing pages.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Item Ends -->
+                                </div>
+
+                            </div>
+                            <!-- Experience Ends -->
+                            <!-- Education Starts -->
+                            <div class="col-xl-6 col-lg-6 col-md-6 skills-container">
+                                <h2 class="font-weight-600 uppercase title-section">Education</h2>
+                                <div class="resume-items">
+                                    <!-- Item Starts -->
+                                    <div class="item">
+                                        <span class="bullet"></span>
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <span class="year"><i class="fa fa-calendar"></i><i class="fa fa-caret-right"></i>2013 - 2016</span>
+                                                <span class="d-block font-weight-400 uppercase">
+                                                    Master degree
+                                                    <span class="separator"></span>
+                                                </span>
+                                                <span class="font-weight-700" style="font-size: 20px;">Rajaratnam School of International Studies</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <p>The S. Rajaratnam School of International Studies is an autonomous Singapore graduate school and policy-oriented think tank within the Nanyang Technological University.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Item Ends -->
+                                    <!-- Item Starts -->
+                                    <div class="item">
+                                        <span class="bullet"></span>
+                                        <div class="card">
+                                            <div class="card-header">
+                                                <span class="year"><i class="fa fa-calendar"></i><i class="fa fa-caret-right"></i>2010 - 2013</span>
+                                                <span class="d-block font-weight-400 uppercase">
+												    Bachelor Degree
+                                                    <span class="separator"></span>
+                                                </span>
+                                                <span class="font-weight-700" style="font-size: 20px;">University of New South Wales Asia</span>
+                                            </div>
+                                            <div class="card-body">
+                                                <p>The University of New South Wales Asia was the first international university campus for the University of New South Wales in Singapore which opened on 12 March 2007. UNSW Asia was the first foreign university and fifth university in Singapore.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Item Ends -->
+                                </div>
+                            </div>
+                            <!-- Education Ends -->
+                        </div>
+                        <!-- Skills Starts -->
+                        <div class="row">
+                            <!-- Skill Bar Starts -->
+                            <div class="col-12">
+                                <h2 class="font-weight-600 uppercase title-section skills-title">skills</h2>
+                            </div>
+                            <div class="col-12">
+                                <h4 style="color: rgb(141, 140, 140); font-family: serif;"><i>Full Stack</i></h4>
+                            </div>
+                            <br><br>
+							<!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">html</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="90" style="width: 90%;"></span>
+                                    <span class="percent" style="right: calc(10% - 21px);">90%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+                            <!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">javascript</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="95" style="width: 95%;"></span>
+                                    <span class="percent" style="right: calc(5% - 21px);">95%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+                            <!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">css</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="95" style="width: 95%;"></span>
+                                    <span class="percent" style="right: calc(5% - 21px);">95%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+                            <!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">Typescript</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="90" style="width: 90%;"></span>
+                                    <span class="percent" style="right: calc(10% - 21px);">90%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+                            <!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">React</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="95" style="width: 95%;"></span>
+                                    <span class="percent" style="right: calc(5% - 21px);">95%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+                            <!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">Angular</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="85" style="width: 85%;"></span>
+                                    <span class="percent" style="right: calc(15% - 21px);">85%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+							<!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">Vue.js</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="80" style="width: 80%;"></span>
+                                    <span class="percent" style="right: calc(20% - 21px);">80%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+							<!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">Node.js</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="90" style="width: 90%;"></span>
+                                    <span class="percent" style="right: calc(10% - 21px);">90%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+                            
+							<!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">React Native</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="85" style="width: 85%;"></span>
+                                    <span class="percent" style="right: calc(15% - 21px);">85%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-12">
+                                <h4 style="color: rgb(141, 140, 140); font-family: serif;"><i>Blockchain</i></h4>
+                            </div>
+                            <br><br>
+                            <!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">Solidity</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="90" style="width: 90%;"></span>
+                                    <span class="percent" style="right: calc(10% - 21px);">90%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+                            <!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">Smart Contract</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="85" style="width: 85%;"></span>
+                                    <span class="percent" style="right: calc(15% - 21px);">85%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+                            <!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">Ethereum</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="90" style="width: 90%;"></span>
+                                    <span class="percent" style="right: calc(10% - 21px);">90%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+                            <!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">NFT</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="85" style="width: 85%;"></span>
+                                    <span class="percent" style="right: calc(15% - 21px);">85%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+                            <!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">Solana</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="80" style="width: 80%;"></span>
+                                    <span class="percent" style="right: calc(20% - 21px);">80%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+                            <!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">Rust</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="85" style="width: 85%;"></span>
+                                    <span class="percent" style="right: calc(15% - 21px);">85%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+                            <!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">web3.js</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="90" style="width: 90%;"></span>
+                                    <span class="percent" style="right: calc(10% - 21px);">90%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+                            <!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">cryptocurrency</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="85" style="width: 85%;"></span>
+                                    <span class="percent" style="right: calc(15% - 21px);">85%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+                            <!-- Skill Bar Starts -->
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <span class="skill-text">dapp</span>
+                                <div class="chart-bar">
+                                    <span class="item-progress" data-percent="85" style="width: 85%;"></span>
+                                    <span class="percent" style="right: calc(15% - 21px);">85%<div class="arrow"></div></span>
+                                </div>
+                            </div>
+                            <!-- Skill Bar Ends -->
+                        </div>
+                    </div>
+
+                    <!-- Resume Ends -->
+                </div>
+            </section>
+            <!-- About Section Ends -->
+            <!-- Portfolio Section Starts -->
+            <section id="work">
+                <div class="portfolio-container">
+                    <!-- Main Heading Starts -->
+                    <div class="container page-title text-center">
+                        <h2 class="text-center">my <span>portfolio</span></h2>
+						<span class="title-head-subtitle">a few recent design and coding projects. Want to see more? Email me.</span>
+                    </div>
+                    <!-- Main Heading Ends -->
+                    <div class="portfolio-section">
+                        <div class="container cd-container">
+                            <div>
+                                <!-- Portfolio Items Starts -->
+                                <ul class="row" id="portfolio-items">
+                                    <!-- Portfolio Item Starts -->
+                                    <li class="col-12 col-md-6 col-lg-4">
+                                        <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#0" data-type="project-1">
+                                            <img src="./Istanbul - Personal Portfolio_files/project-1.png" alt="Project" class="img-fluid">
+                                            <div><span>Image Format</span></div>
+                                        </a>
+                                    </li>
+                                    <!-- Portfolio Item Ends -->
+                                    <!-- Portfolio Item Starts -->
+                                    <li class="col-12 col-md-6 col-lg-4">
+                                        <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#0" data-type="project-2">
+                                            <img src="./Istanbul - Personal Portfolio_files/project-2.png" alt="Project" class="img-fluid">
+                                            <div><span>Image Format</span></div>
+                                        </a>
+                                    </li>
+                                    <!-- Portfolio Item Ends -->
+                                    <!-- Portfolio Item Starts -->
+                                    <li class="col-12 col-md-6 col-lg-4">
+                                        <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#0" data-type="project-3">
+                                            <img src="./Istanbul - Personal Portfolio_files/project-3.png" alt="Project" class="img-fluid">
+                                            <div><span>Slider Format</span></div>
+                                        </a>
+                                    </li>
+                                    <!-- Portfolio Item Ends -->
+                                    <!-- Portfolio Item Starts -->
+                                    <li class="col-12 col-md-6 col-lg-4">
+                                        <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#0" data-type="project-4">
+                                            <img src="./Istanbul - Personal Portfolio_files/project-4.png" alt="Project" class="img-fluid">
+                                            <div><span>Slider Format</span></div>
+                                        </a>
+                                    </li>
+                                    <!-- Portfolio Item Ends -->
+                                    <!-- Portfolio Item Starts -->
+                                    <li class="col-12 col-md-6 col-lg-4">
+                                        <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#0" data-type="project-5">
+                                            <img src="./Istanbul - Personal Portfolio_files/project-5.png" alt="Project" class="img-fluid">
+                                            <div><span>Image Format</span></div>
+                                        </a>
+                                    </li>
+                                    <!-- Portfolio Item Ends -->
+                                    <!-- Portfolio Item Starts -->
+                                    <li class="col-12 col-md-6 col-lg-4">
+                                        <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#0" data-type="project-6">
+                                            <img src="./Istanbul - Personal Portfolio_files/project-6.png" alt="Project" class="img-fluid">
+                                            <div><span>Slider Format</span></div>
+                                        </a>
+                                    </li>
+                                    <!-- Portfolio Item Ends -->
+                                    <!-- Portfolio Item Starts -->
+                                    <li class="col-12 col-md-6 col-lg-4">
+                                        <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#0" data-type="project-7">
+                                            <img src="./Istanbul - Personal Portfolio_files/project-7.png" alt="Project" class="img-fluid">
+                                            <div><span>Slider Format</span></div>
+                                        </a>
+                                    </li>
+                                    <!-- Portfolio Item Ends -->
+                                    <!-- Portfolio Item Starts -->
+                                    <li class="col-12 col-md-6 col-lg-4">
+                                        <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#0" data-type="project-8">
+                                            <img src="./Istanbul - Personal Portfolio_files/project-8.png" alt="Project" class="img-fluid">
+                                            <div><span>Slider Format</span></div>
+                                        </a>
+                                    </li>
+                                    <!-- Portfolio Item Ends -->
+                                    <!-- Portfolio Item Starts -->
+                                    <li class="col-12 col-md-6 col-lg-4">
+                                        <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#0" data-type="project-9">
+                                            <img src="./Istanbul - Personal Portfolio_files/project-9.png" alt="Project" class="img-fluid">
+                                            <div><span>Image Format</span></div>
+                                        </a>
+                                    </li>
+                                    <!-- Portfolio Item Ends -->
+                                </ul>
+                                <!-- Portfolio Items Ends -->
+                            </div>
+                        </div>
+                    </div>
+					<!-- PORTFOLIO OVERLAY STARTS -->
+					<div class="portfolio-overlay"></div>
+					<!-- PORTFOLIO OVERLAY ENDS -->
+                </div>
+
+                <!-- Portfolio Project Content Starts -->
+                <div class="project-info-container project-1">
+                    <!-- Main Content Starts -->
+                    <div class="project-info-main-content">
+                        <img src="./Istanbul - Personal Portfolio_files/project-1.png" alt="Project Image" data-xblocker="passed" style="visibility: visible;">
+                    </div>
+                    <!-- Main Content Ends -->
+                    <!-- Project Details Starts -->
+                    <div class="projects-info row">
+                        <div class="col-12 col-sm-6 p-none">
+                            <h3 class="font-weight-600 uppercase">Image Format</h3>
+                            <ul class="project-details">
+                                <li><i class="fa fa-file-text-o"></i><span class="font-weight-400 project-label"> Project </span>: <span class="font-weight-600 uppercase">Website</span>
+                                </li>
+                                <li><i class="fa fa-hourglass-o"></i><span class="font-weight-400 project-label"> Duration </span>: <span class="font-weight-600 uppercase">2 months</span>
+                                </li>
+                                <li><i class="fa fa-code"></i> <span class="font-weight-400 project-label"> Technologies</span> : <span class="font-weight-600 uppercase">html, javascript, react</span>
+                                </li>
+                                <li><i class="fa fa-money"></i> <span class="font-weight-400 project-label"> Budget</span> : <span class="font-weight-600 uppercase">4500 USD</span>
+                                </li>
+                            </ul>
+                            <!-- <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn"><span><i class="fa fa-external-link"></i>preview</span></a> -->
+                        </div>
+                        <div class="col-6 p-none text-right">
+                            <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn btn-secondary close-project"><span><i class="fa fa-close"></i>Close</span></a>
+                        </div>
+                    </div>
+                    <!-- Project Details Ends -->
+                </div>
+                <!-- Portfolio Project Content Ends -->
+                <!-- Portfolio Project Content Starts -->
+                <div class="project-info-container project-2">
+                    <!-- Main Content Starts -->
+                    <div class="project-info-main-content">
+                        <img src="./Istanbul - Personal Portfolio_files/project-2.png" alt="Project Image" data-xblocker="passed" style="visibility: visible;">
+                    </div>
+                    <!-- Main Content Ends -->
+                    <!-- Project Details Starts -->
+                    <div class="projects-info row">
+                        <div class="col-12 col-sm-6 p-none">
+                            <h3 class="font-weight-600 uppercase">Image Format</h3>
+                            <ul class="project-details">
+                                <li><i class="fa fa-file-text-o"></i><span class="font-weight-400 project-label"> Project </span>: <span class="font-weight-600 uppercase">Website</span>
+                                </li>
+                                <li><i class="fa fa-hourglass-o"></i><span class="font-weight-400 project-label"> Duration </span>: <span class="font-weight-600 uppercase">7 months</span>
+                                </li>
+                                <li><i class="fa fa-code"></i> <span class="font-weight-400 project-label"> Technologies</span> : <span class="font-weight-600 uppercase">blockchain, solidity, ethereum, solana</span>
+                                </li>
+                                <li><i class="fa fa-money"></i> <span class="font-weight-400 project-label"> Budget</span> : <span class="font-weight-600 uppercase">20000 USD</span>
+                                </li>
+                            </ul>
+                            <!-- <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn"><span><i class="fa fa-external-link"></i>preview</span></a> -->
+                        </div>
+                        <div class="col-6 p-none text-right">
+                            <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn btn-secondary close-project"><span><i class="fa fa-close"></i>Close</span></a>
+                        </div>
+                    </div>
+                    <!-- Project Details Ends -->
+                </div>
+                <!-- Portfolio Project Content Ends -->
+                <!-- Portfolio Project Content Starts -->
+                <div class="project-info-container project-3">
+                    <!-- Main Content Starts -->
+                    <div class="project-info-main-content">
+                        <div id="slider3" class="carousel slide portfolio-slider" data-ride="carousel">
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/starkasino/1.png" alt="slide 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/starkasino/2.png" alt="slide 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/starkasino/3.png" alt="slide 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/starkasino/4.png" alt="slide 4">
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#slider3" data-slide="prev"> <span class="fa fa-chevron-left carousel-controls"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#slider3" data-slide="next"> <span class="fa fa-chevron-right carousel-controls"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Main Content Ends -->
+                    <!-- Project Details Starts -->
+                    <div class="projects-info row">
+                        <div class="col-12 col-sm-6 p-none">
+                            <h3 class="font-weight-600 uppercase">Slider Format</h3>
+                            <ul class="project-details">
+                                <li><i class="fa fa-file-text-o"></i><span class="font-weight-400 project-label"> Project </span>: <span class="font-weight-600 uppercase">Website</span>
+                                </li>
+                                <li><i class="fa fa-hourglass-o"></i><span class="font-weight-400 project-label"> Duration </span>: <span class="font-weight-600 uppercase">10 months</span>
+                                </li>
+                                <li><i class="fa fa-code"></i> <span class="font-weight-400 project-label"> Technologies</span> : <span class="font-weight-600 uppercase">html, react, node</span>
+                                </li>
+                                <li><i class="fa fa-money"></i> <span class="font-weight-400 project-label"> Budget</span> : <span class="font-weight-600 uppercase">35000 USD</span>
+                                </li>
+                            </ul>
+                            <!-- <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn"><span><i class="fa fa-external-link"></i>preview</span></a> -->
+                        </div>
+                        <div class="col-6 p-none text-right">
+                            <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn btn-secondary close-project"><span><i class="fa fa-close"></i>Close</span></a>
+                        </div>
+                    </div>
+                    <!-- Project Details Ends -->
+                </div>
+                <!-- Portfolio Project Content Ends -->
+                <!-- Portfolio Project Content Starts -->
+                <div class="project-info-container project-4">
+                    <!-- Main Content Starts -->
+                    <div class="project-info-main-content">
+                        <div id="slider4" class="carousel slide portfolio-slider" data-ride="carousel">
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/health/1.png" alt="slide 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/health/2.png" alt="slide 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/health/3.png" alt="slide 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/health/4.png" alt="slide 4">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/health/5.png" alt="slide 5">
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#slider4" data-slide="prev"> <span class="fa fa-chevron-left carousel-controls"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#slider4" data-slide="next"> <span class="fa fa-chevron-right carousel-controls"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Main Content Ends -->
+                    <!-- Project Details Starts -->
+                    <div class="projects-info row">
+                        <div class="col-12 col-sm-6 p-none">
+                            <h3 class="font-weight-600 uppercase">Slider Format</h3>
+                            <ul class="project-details">
+                                <li><i class="fa fa-file-text-o"></i><span class="font-weight-400 project-label"> Project </span>: <span class="font-weight-600 uppercase">Website</span>
+                                </li>
+                                <li><i class="fa fa-hourglass-o"></i><span class="font-weight-400 project-label"> Duration </span>: <span class="font-weight-600 uppercase">6 months</span>
+                                </li>
+                                <li><i class="fa fa-code"></i> <span class="font-weight-400 project-label"> Technologies</span> : <span class="font-weight-600 uppercase">next, node, asw s3</span>
+                                </li>
+                                <li><i class="fa fa-money"></i> <span class="font-weight-400 project-label"> Budget</span> : <span class="font-weight-600 uppercase">32000 USD</span>
+                                </li>
+                            </ul>
+                            <!-- <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn"><span><i class="fa fa-external-link"></i>preview</span></a> -->
+                        </div>
+                        <div class="col-6 p-none text-right">
+                            <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn btn-secondary close-project"><span><i class="fa fa-close"></i>Close</span></a>
+                        </div>
+                    </div>
+                    <!-- Project Details Ends -->
+                </div>
+                <!-- Portfolio Project Content Ends -->
+                <!-- Portfolio Project Content Starts -->
+                <div class="project-info-container project-5">
+                    <!-- Main Content Starts -->
+                    <div class="project-info-main-content">
+                        <img src="./Istanbul - Personal Portfolio_files/project-5.png" alt="Project Image" data-xblocker="passed" style="visibility: visible;">
+                    </div>
+                    <!-- Main Content Ends -->
+                    <!-- Project Details Starts -->
+                    <div class="projects-info row">
+                        <div class="col-12 col-sm-6 p-none">
+                            <h3 class="font-weight-600 uppercase">Image Format</h3>
+                            <ul class="project-details">
+                                <li><i class="fa fa-file-text-o"></i><span class="font-weight-400 project-label"> Project </span>: <span class="font-weight-600 uppercase">Website</span>
+                                </li>
+                                <li><i class="fa fa-hourglass-o"></i><span class="font-weight-400 project-label"> Duration </span>: <span class="font-weight-600 uppercase">2 months</span>
+                                </li>
+                                <li><i class="fa fa-code"></i> <span class="font-weight-400 project-label"> Technologies</span> : <span class="font-weight-600 uppercase">typescript, angular</span>
+                                </li>
+                                <li><i class="fa fa-money"></i> <span class="font-weight-400 project-label"> Budget</span> : <span class="font-weight-600 uppercase">5500 USD</span>
+                                </li>
+                            </ul>
+                            <!-- <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn"><span><i class="fa fa-external-link"></i>preview</span></a> -->
+                        </div>
+                        <div class="col-6 p-none text-right">
+                            <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn btn-secondary close-project"><span><i class="fa fa-close"></i>Close</span></a>
+                        </div>
+                    </div>
+                    <!-- Project Details Ends -->
+                </div>
+                <!-- Portfolio Project Content Ends -->
+                <!-- Portfolio Project Content Starts -->
+                <div class="project-info-container project-6">
+                    <!-- Main Content Starts -->
+                    <div class="project-info-main-content">
+                        <div id="slider7" class="carousel slide portfolio-slider" data-ride="carousel">
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/betnomi/1.png" alt="slide 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/betnomi/2.png" alt="slide 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/betnomi/3.png" alt="slide 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/betnomi/4.png" alt="slide 4">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/betnomi/5.png" alt="slide 5">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/betnomi/6.png" alt="slide 6">
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#slider7" data-slide="prev"> <span class="fa fa-chevron-left carousel-controls"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#slider7" data-slide="next"> <span class="fa fa-chevron-right carousel-controls"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Main Content Ends -->
+                    <!-- Project Details Starts -->
+                    <div class="projects-info row">
+                        <div class="col-12 col-sm-6 p-none">
+                            <h3 class="font-weight-600 uppercase">Slider Format</h3>
+                            <ul class="project-details">
+                                <li><i class="fa fa-file-text-o"></i><span class="font-weight-400 project-label"> Project </span>: <span class="font-weight-600 uppercase">Website</span>
+                                </li>
+                                <li><i class="fa fa-hourglass-o"></i><span class="font-weight-400 project-label"> Duration </span>: <span class="font-weight-600 uppercase">8 months</span>
+                                </li>
+                                <li><i class="fa fa-code"></i> <span class="font-weight-400 project-label"> Technologies</span> : <span class="font-weight-600 uppercase">html, javascript, react, node, mongodb</span>
+                                </li>
+                                <li><i class="fa fa-money"></i> <span class="font-weight-400 project-label"> Budget</span> : <span class="font-weight-600 uppercase">31550 USD</span>
+                                </li>
+                            </ul>
+                            <!-- <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn"><span><i class="fa fa-external-link"></i>preview</span></a> -->
+                        </div>
+                        <div class="col-6 p-none text-right">
+                            <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn btn-secondary close-project"><span><i class="fa fa-close"></i>Close</span></a>
+                        </div>
+                    </div>
+                    <!-- Project Details Ends -->
+                </div>
+                <!-- Portfolio Project Content Ends -->
+                <!-- Portfolio Project Content Starts -->
+                <div class="project-info-container project-7">
+                    <!-- Main Content Starts -->
+                    <div class="project-info-main-content">
+                        <div id="slider8" class="carousel slide portfolio-slider" data-ride="carousel">
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/marca/1.png" alt="slide 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/marca/2.png" alt="slide 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Istanbul - Personal Portfolio_files/projects/marca/3.png" alt="slide 3">
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#slider8" data-slide="prev"> <span class="fa fa-chevron-left carousel-controls"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#slider8" data-slide="next"> <span class="fa fa-chevron-right carousel-controls"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Main Content Ends -->
+                    <!-- Project Details Starts -->
+                    <div class="projects-info row">
+                        <div class="col-12 col-sm-6 p-none">
+                            <h3 class="font-weight-600 uppercase">Slider Format</h3>
+                            <ul class="project-details">
+                                <li><i class="fa fa-file-text-o"></i><span class="font-weight-400 project-label"> Project </span>: <span class="font-weight-600 uppercase">Website</span>
+                                </li>
+                                <li><i class="fa fa-hourglass-o"></i><span class="font-weight-400 project-label"> Duration </span>: <span class="font-weight-600 uppercase">1 months</span>
+                                </li>
+                                <li><i class="fa fa-code"></i> <span class="font-weight-400 project-label"> Technologies</span> : <span class="font-weight-600 uppercase">html, jquery, animation</span>
+                                </li>
+                                <li><i class="fa fa-money"></i> <span class="font-weight-400 project-label"> Budget</span> : <span class="font-weight-600 uppercase">3600 USD</span>
+                                </li>
+                            </ul>
+                            <!-- <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn"><span><i class="fa fa-external-link"></i>preview</span></a> -->
+                        </div>
+                        <div class="col-6 p-none text-right">
+                            <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn btn-secondary close-project"><span><i class="fa fa-close"></i>Close</span></a>
+                        </div>
+                    </div>
+                    <!-- Project Details Ends -->
+                </div>
+                <!-- Portfolio Project Content Ends -->
+                <!-- Portfolio Project Content Starts -->
+                <div class="project-info-container project-8">
+                    <!-- Main Content Starts -->
+                    <div class="project-info-main-content">
+                        <div id="slider6" class="carousel slide portfolio-slider" data-ride="carousel">
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="mobile" src="./Istanbul - Personal Portfolio_files/projects/crypto wallet(mobile app)/1.png" alt="slide 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="mobile" src="./Istanbul - Personal Portfolio_files/projects/crypto wallet(mobile app)/2.png" alt="slide 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="mobile" src="./Istanbul - Personal Portfolio_files/projects/crypto wallet(mobile app)/3.png" alt="slide 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="mobile" src="./Istanbul - Personal Portfolio_files/projects/crypto wallet(mobile app)/4.png" alt="slide 4">
+                                </div>
+                            </div>
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#slider6" data-slide="prev"> <span class="fa fa-chevron-left carousel-controls"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#slider6" data-slide="next"> <span class="fa fa-chevron-right carousel-controls"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Main Content Ends -->
+                    <!-- Project Details Starts -->
+                    <div class="projects-info row">
+                        <div class="col-12 col-sm-6 p-none">
+                            <h3 class="font-weight-600 uppercase">Slider Format</h3>
+                            <ul class="project-details">
+                                <li><i class="fa fa-file-text-o"></i><span class="font-weight-400 project-label"> Project </span>: <span class="font-weight-600 uppercase">Mobile App</span>
+                                </li>
+                                <li><i class="fa fa-hourglass-o"></i><span class="font-weight-400 project-label"> Duration </span>: <span class="font-weight-600 uppercase">2 months</span>
+                                </li>
+                                <li style="width: 410px;"><i class="fa fa-code"></i> <span class="font-weight-400 project-label"> Technologies</span> : <span class="font-weight-600 uppercase">react native, web3.js, ethereum</span>
+                                </li>
+                                <li><i class="fa fa-money"></i> <span class="font-weight-400 project-label"> Budget</span> : <span class="font-weight-600 uppercase">7500 USD</span>
+                                </li>
+                            </ul>
+                            <!-- <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn"><span><i class="fa fa-external-link"></i>preview</span></a> -->
+                        </div>
+                        <div class="col-6 p-none text-right">
+                            <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn btn-secondary close-project"><span><i class="fa fa-close"></i>Close</span></a>
+                        </div>
+                    </div>
+                    <!-- Project Details Ends -->
+                </div>
+                <!-- Portfolio Project Content Ends -->
+                <!-- Portfolio Project Content Starts -->
+                <div class="project-info-container project-9">
+                    <!-- Main Content Starts -->
+                    <div class="project-info-main-content">
+                        <img src="./Istanbul - Personal Portfolio_files/project-9.png" alt="Project Image" data-xblocker="passed" style="visibility: visible;">
+                    </div>
+                    <!-- Main Content Ends -->
+                    <!-- Project Details Starts -->
+                    <div class="projects-info row">
+                        <div class="col-12 col-sm-6 p-none">
+                            <h3 class="font-weight-600 uppercase">Image Format</h3>
+                            <ul class="project-details">
+                                <li><i class="fa fa-file-text-o"></i><span class="font-weight-400 project-label"> Project </span>: <span class="font-weight-600 uppercase">Website</span>
+                                </li>
+                                <li><i class="fa fa-hourglass-o"></i><span class="font-weight-400 project-label"> Duration </span>: <span class="font-weight-600 uppercase">1 months</span>
+                                </li>
+                                <li><i class="fa fa-code"></i> <span class="font-weight-400 project-label"> Technologies</span> : <span class="font-weight-600 uppercase">react, nft, web3.js</span>
+                                </li>
+                                <li><i class="fa fa-money"></i> <span class="font-weight-400 project-label"> Budget</span> : <span class="font-weight-600 uppercase">4000 USD</span>
+                                </li>
+                            </ul>
+                            <!-- <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn"><span><i class="fa fa-external-link"></i>preview</span></a> -->
+                        </div>
+                        <div class="col-6 p-none text-right">
+                            <a href="http://slimhamdi.net/istanbul/demos/index-left-image-dark.html#" class="btn btn-secondary close-project"><span><i class="fa fa-close"></i>Close</span></a>
+                        </div>
+                    </div>
+                    <!-- Project Details Ends -->
+                </div>
+                <!-- Portfolio Project Content Ends -->
+                <span class="back-mobile close-project"><i class="fa fa-arrow-left"></i></span>
+            </section>
+            <!-- Portfolio Section Ends -->
+            <!-- Contact Section Starts -->
+            <section id="contact">
+                <div class="contact-container">
+                    <!-- Main Heading Starts -->
+                    <div class="container page-title text-center">
+                        <h2 class="text-center">get <span>in touch</span></h2>
+						<span class="title-head-subtitle">I’m always open to discussing project design and development work or partnerships.</span>
+                    </div>
+                    <br><br><br>
+                    <!-- Main Heading Ends -->
+                    <div class="container">
+                        <div class="row contact">
+                            <div class="col image">
+                                <img src="./Istanbul - Personal Portfolio_files/Screenshot_2.jpg" alt="" style="width: 100%;">
+                            </div>
+                            <div class="col">
+                                <!-- Contact Infos Starts -->
+                                <div class="container contact-info-container">
+                                    <div class="row contact-item">
+                                        <p class="contact-info-title">Location</p>
+                                        <div class="contact-info-content">
+                                            <i class="fa fa-whatsapp"></i>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;
+                                            <span>Singapore</span>
+                                        </div>
+                                    </div>
+                                    <div class="row contact-item">
+                                        <p class="contact-info-title">Email</p>
+                                        <div class="contact-info-content">
+                                            <i class="fa fa-envelope-o"></i>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;
+                                            <span>adrian.dev312@gmail.com</span>
+                                        </div>
+                                    </div>
+                                    <div class="row contact-item">
+                                        <p class="contact-info-title">Skype</p>
+                                        <div class="contact-info-content">
+                                            <i class="fa fa-skype"></i>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;
+                                            <span>Dev(A.L)</span>
+                                        </div>
+                                    </div>
+                                    <div class="row contact-item">
+                                        <p class="contact-info-title">Telegram</p>
+                                        <div class="contact-info-content">
+                                            <i class="fa fa-telegram"></i>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;
+                                            <span>best_friend_olaf</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div>
+                                    <ul class="custom-list">
+                                        <li>
+                                            <p class="font-weight-600"><span class="contact-title">Location</span><i class="fa fa-whatsapp"></i><span class="contact-content">Singapore</span></p>
+                                        </li>
+                                        <li>
+                                            <p class="font-weight-600"><span class="contact-title">Email</span><i class="fa fa-envelope-o fs-14"></i><span class="contact-content">adrian.dev312@gmail.com</span></p>
+                                        </li>
+                                        <li>
+                                            <p class="font-weight-600"><span class="contact-title">Telegram</span><i class="fa fa-telegram"></i><span class="contact-content">best_friend_olaf</span></p>
+                                        </li>
+                                        <li>
+                                            <p class="font-weight-600"><span class="contact-title">Skype</span><i class="fa fa-skype"></i><span class="contact-content">Dev(A.L)</span></p>
+                                        </li>
+                                    </ul>
+                                </div> -->
+                                <!-- Contact Infos Ends -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact Section Ends -->
+        </main>
+    </div>
+    <!-- Main Content Ends -->
+    <!-- Preloader Starts -->
+    <div class="preloader loaded">
+        <div class="preloader-container">
+            <h1>daria</h1>
+            <div id="progress-line-container">
+                <div class="progress-line"></div>
+            </div>
+            <h1>taylor</h1>
+        </div>
+    </div>
+    <!-- Preloader Ends -->
+
+    <!-- Template JS Files -->
+    <script src="./Istanbul - Personal Portfolio_files/jquery-2.2.4.min.js.download"></script>
+    <script src="./Istanbul - Personal Portfolio_files/jquery.animatedheadline.js.download"></script>
+    <script src="./Istanbul - Personal Portfolio_files/bootstrap.min.js.download"></script>
+    <script src="./Istanbul - Personal Portfolio_files/transition.js.download"></script>
+    <!-- Live Style Switcher JS File - only demo -->
+    <script src="./Istanbul - Personal Portfolio_files/styleswitcher.js.download"></script>
+    <!-- Main JS Initialization File -->
+    <script src="./Istanbul - Personal Portfolio_files/custom.js.download"></script>
