@@ -3042,14 +3042,15 @@ ul.social-intro li a:hover i {
 }
 
 .contact-info-container {
+  position: absolute;
+  top: 40px;
   margin-left: 85px;
-  margin-top: 65px;
   font-weight: 900;
 }
 
 .contact-info-container .contact-item {
   position: relative;
-  height: 100px;
+  height: 124px;
 }
 
 .contact-info-container .contact-item .contact-info-title {
